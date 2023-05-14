@@ -1,3 +1,11 @@
 test:
   name: addoumi mohammed
-   
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: localhost:8070/eureka/
